@@ -1,0 +1,73 @@
+hook_access	hooks/node.php	/^function hook_access($op, $node, $account) {$/;"	f
+hook_action_info	hooks/core.php	/^function hook_action_info() {$/;"	f
+hook_action_info_alter	hooks/core.php	/^function hook_action_info_alter(&$actions) {$/;"	f
+hook_actions_delete	hooks/core.php	/^function hook_actions_delete($aid) {$/;"	f
+hook_block	hooks/core.php	/^function hook_block($op = 'list', $delta = 0, $edit = array()) {$/;"	f
+hook_boot	hooks/core.php	/^function hook_boot() {$/;"	f
+hook_comment	hooks/core.php	/^function hook_comment(&$a1, $op) {$/;"	f
+hook_cron	hooks/core.php	/^function hook_cron() {$/;"	f
+hook_db_rewrite_sql	hooks/core.php	/^function hook_db_rewrite_sql($query, $primary_table, $primary_field, $args) {$/;"	f
+hook_delete	hooks/node.php	/^function hook_delete(&$node) {$/;"	f
+hook_disable	hooks/install.php	/^function hook_disable() {$/;"	f
+hook_elements	hooks/core.php	/^function hook_elements() {$/;"	f
+hook_enable	hooks/install.php	/^function hook_enable() {$/;"	f
+hook_exit	hooks/core.php	/^function hook_exit($destination = NULL) {$/;"	f
+hook_file_download	hooks/core.php	/^function hook_file_download($filepath) {$/;"	f
+hook_filter	hooks/core.php	/^function hook_filter($op, $delta = 0, $format = -1, $text = '', $cache_id = 0) {$/;"	f
+hook_filter_tips	hooks/core.php	/^function hook_filter_tips($delta, $format, $long = FALSE) {$/;"	f
+hook_flush_caches	hooks/core.php	/^function hook_flush_caches() {$/;"	f
+hook_footer	hooks/core.php	/^function hook_footer($main = 0) {$/;"	f
+hook_form	hooks/node.php	/^function hook_form(&$node, $form_state) {$/;"	f
+hook_form_FORM_ID_alter	hooks/core.php	/^function hook_form_FORM_ID_alter(&$form, &$form_state) {$/;"	f
+hook_form_alter	hooks/core.php	/^function hook_form_alter(&$form, &$form_state, $form_id) {$/;"	f
+hook_forms	hooks/core.php	/^function hook_forms($form_id, $args) {$/;"	f
+hook_help	hooks/core.php	/^function hook_help($path, $arg) {$/;"	f
+hook_hook_info	hooks/core.php	/^function hook_hook_info() {$/;"	f
+hook_init	hooks/core.php	/^function hook_init() {$/;"	f
+hook_insert	hooks/node.php	/^function hook_insert($node) {$/;"	f
+hook_install	hooks/install.php	/^function hook_install() {$/;"	f
+hook_link	hooks/core.php	/^function hook_link($type, $object, $teaser = FALSE) {$/;"	f
+hook_link_alter	hooks/core.php	/^function hook_link_alter(&$links, $node, $comment = NULL) {$/;"	f
+hook_load	hooks/node.php	/^function hook_load($node) {$/;"	f
+hook_locale	hooks/core.php	/^function hook_locale($op = 'groups') {$/;"	f
+hook_mail	hooks/core.php	/^function hook_mail($key, &$message, $params) {$/;"	f
+hook_mail_alter	hooks/core.php	/^function hook_mail_alter(&$message) {$/;"	f
+hook_menu	hooks/core.php	/^function hook_menu() {$/;"	f
+hook_menu_alter	hooks/core.php	/^function hook_menu_alter(&$items) {$/;"	f
+hook_menu_link_alter	hooks/core.php	/^function hook_menu_link_alter(&$item, $menu) {$/;"	f
+hook_node_access_records	hooks/core.php	/^function hook_node_access_records($node) {$/;"	f
+hook_node_grants	hooks/core.php	/^function hook_node_grants($account, $op) {$/;"	f
+hook_node_info	hooks/node.php	/^function hook_node_info() {$/;"	f
+hook_node_operations	hooks/core.php	/^function hook_node_operations() {$/;"	f
+hook_node_type	hooks/node.php	/^function hook_node_type($op, $info) {$/;"	f
+hook_nodeapi	hooks/core.php	/^function hook_nodeapi(&$node, $op, $a3 = NULL, $a4 = NULL) {$/;"	f
+hook_perm	hooks/core.php	/^function hook_perm() {$/;"	f
+hook_ping	hooks/core.php	/^function hook_ping($name = '', $url = '') {$/;"	f
+hook_prepare	hooks/node.php	/^function hook_prepare(&$node) {$/;"	f
+hook_profile_alter	hooks/core.php	/^function hook_profile_alter(&$account) {$/;"	f
+hook_requirements	hooks/install.php	/^function hook_requirements($phase) {$/;"	f
+hook_schema	hooks/install.php	/^function hook_schema() {$/;"	f
+hook_schema_alter	hooks/core.php	/^function hook_schema_alter(&$schema) {$/;"	f
+hook_search	hooks/core.php	/^function hook_search($op = 'search', $keys = NULL) {$/;"	f
+hook_search_preprocess	hooks/core.php	/^function hook_search_preprocess($text) {$/;"	f
+hook_system_info_alter	hooks/core.php	/^function hook_system_info_alter(&$info, $file) {$/;"	f
+hook_taxonomy	hooks/core.php	/^function hook_taxonomy($op, $type, $array = NULL) {$/;"	f
+hook_term_path	hooks/core.php	/^function hook_term_path($term) {$/;"	f
+hook_theme	hooks/core.php	/^function hook_theme($existing, $type, $theme, $path) {$/;"	f
+hook_theme_registry_alter	hooks/core.php	/^function hook_theme_registry_alter(&$theme_registry) {$/;"	f
+hook_translated_menu_link_alter	hooks/core.php	/^function hook_translated_menu_link_alter(&$item, $map) {$/;"	f
+hook_translation_link_alter	hooks/core.php	/^function hook_translation_link_alter(&$links, $path) {$/;"	f
+hook_uninstall	hooks/install.php	/^function hook_uninstall() {$/;"	f
+hook_update	hooks/node.php	/^function hook_update($node) {$/;"	f
+hook_update_N	hooks/install.php	/^  \/\/ function hook_update_N() {$/;"	f
+hook_update_N	hooks/install.php	/^function hook_update_N(&$sandbox) {$/;"	f
+hook_update_index	hooks/core.php	/^function hook_update_index() {$/;"	f
+hook_update_last_removed	hooks/install.php	/^function hook_update_last_removed() {$/;"	f
+hook_update_projects_alter	hooks/core.php	/^function hook_update_projects_alter(&$projects) {$/;"	f
+hook_update_status_alter	hooks/core.php	/^function hook_update_status_alter(&$projects) {$/;"	f
+hook_user	hooks/core.php	/^function hook_user($op, &$edit, &$account, $category = NULL) {$/;"	f
+hook_user_operations	hooks/core.php	/^function hook_user_operations() {$/;"	f
+hook_validate	hooks/node.php	/^function hook_validate($node, &$form) {$/;"	f
+hook_view	hooks/node.php	/^function hook_view($node, $teaser = FALSE, $page = FALSE) {$/;"	f
+hook_watchdog	hooks/core.php	/^function hook_watchdog($log_entry) {$/;"	f
+hook_xmlrpc	hooks/core.php	/^function hook_xmlrpc() {$/;"	f

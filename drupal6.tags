@@ -1,0 +1,229 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+a3	hooks/core.php	/^function hook_nodeapi(&$node, $op, $a3 = NULL, $a4 = NULL) {$/;"	v
+account	hooks/core.php	/^  $account = $params['account'];$/;"	v
+additions	hooks/node.php	/^  $additions = db_fetch_object(db_query('SELECT * FROM {mytable} WHERE vid = %d', $node->vid));$/;"	v
+arguments1	hooks/core.php	/^      $arguments1 = array();$/;"	v
+arguments2	hooks/core.php	/^      $arguments2 = array();$/;"	v
+array	hooks/core.php	/^function hook_taxonomy($op, $type, $array = NULL) {$/;"	v
+block	hooks/core.php	/^        $block = array('subject' => t('Title of block #1'),$/;"	v
+block	hooks/core.php	/^        $block = array('subject' => t('Title of block #2'),$/;"	v
+body	hooks/core.php	/^  $body = strtr($context['message'], $variables);$/;"	v
+breadcrumb	hooks/node.php	/^    $breadcrumb = array();$/;"	v
+but	hooks/core.php	/^ * function but each form will have a different form id for submission,$/;"	f
+can	hooks/install.php	/^ *   function can force the current and all later updates for this$/;"	f
+categories	hooks/core.php	/^        $categories = array();$/;"	v
+category	hooks/core.php	/^  if ($op == 'form' && $category == 'account') {$/;"	v
+category	hooks/core.php	/^function hook_user($op, &$edit, &$account, $category = NULL) {$/;"	v
+client	hooks/core.php	/^  $client = new xmlrpc_client('\/RPC2', 'rpc.weblogs.com', 80);$/;"	v
+comment	hooks/core.php	/^function hook_link_alter(&$links, $node, $comment = NULL) {$/;"	v
+conditions1	hooks/core.php	/^      $conditions1 = 'n.status = 1';$/;"	v
+context	hooks/core.php	/^  $context = $params['context'];$/;"	v
+cron_last	hooks/install.php	/^    $cron_last = variable_get('cron_last', NULL);$/;"	v
+custom_url_rewrite_inbound	hooks/core.php	/^function custom_url_rewrite_inbound(&$result, $path, $path_language) {$/;"	f
+custom_url_rewrite_outbound	hooks/core.php	/^function custom_url_rewrite_outbound(&$path, &$options, $original_path) {$/;"	f
+delta	hooks/core.php	/^  else if ($op == 'configure' && $delta == 0) {$/;"	v
+delta	hooks/core.php	/^  else if ($op == 'save' && $delta == 0) {$/;"	v
+delta	hooks/core.php	/^function hook_block($op = 'list', $delta = 0, $edit = array()) {$/;"	v
+delta	hooks/core.php	/^function hook_filter($op, $delta = 0, $format = -1, $text = '', $cache_id = 0) {$/;"	v
+does	hooks/core.php	/^ * what the function does + '_action'), and an optional form definition$/;"	f
+extra	hooks/core.php	/^        $extra = node_invoke_nodeapi($node, 'search result');$/;"	v
+extra	hooks/core.php	/^    $extra = node_invoke_nodeapi($node, 'update index');$/;"	v
+feed	hooks/core.php	/^  $feed = url('node\/feed');$/;"	v
+file	hooks/node.php	/^    $file = file_save_upload($field_name, _image_filename($file->filename, NULL, TRUE));$/;"	v
+find	hooks/core.php	/^      $find = do_search($keys, 'node', 'INNER JOIN {node} n ON n.nid = i.sid '. $join1, $conditions1 . (empty($where1) ? '' : ' AND '. $where1), $arguments1, $select2, $join2, $arguments2);$/;"	v
+for	hooks/core.php	/^      return '<p>' . t('Blocks are boxes of content rendered into an area, or region, of a web page. The default theme Garland, for example, implements the regions "left sidebar", "right sidebar", "content", "header", and "footer", and a block may appear in any one of these areas. The <a href="@blocks">blocks administration page<\/a> provides a drag-and-drop interface for assigning a block to a region, and for controlling the order of blocks within regions.', array('@blocks' => url('admin\/structure\/block'))) . '<\/p>';$/;"	i
+for	hooks/core.php	/^      return '<p>' . t('This page provides a drag-and-drop interface for assigning a block to a region, and for controlling the order of blocks within regions. Since not all themes implement the same regions, or display regions in the same way, blocks are positioned on a per-theme basis. Remember that your changes will not be saved until you click the <em>Save blocks<\/em> button at the bottom of the page.') . '<\/p>';$/;"	i
+for	hooks/core.php	/^ *       filter out inappropriate actions when presenting the interface for$/;"	i
+for	hooks/core.php	/^ *   - A descriptive help string, enclosed in a t() function for translation$/;"	f
+form	hooks/core.php	/^      $form = array();$/;"	v
+form_set_value	hooks/node.php	/^ * the node at the validate stage, you can use function form_set_value().$/;"	f
+grants	hooks/core.php	/^    $grants = array();$/;"	v
+hook_access	hooks/node.php	/^function hook_access($op, $node, $account) {$/;"	f
+hook_action_info	hooks/core.php	/^function hook_action_info() {$/;"	f
+hook_action_info_alter	hooks/core.php	/^function hook_action_info_alter(&$actions) {$/;"	f
+hook_actions_delete	hooks/core.php	/^function hook_actions_delete($aid) {$/;"	f
+hook_block	hooks/core.php	/^function hook_block($op = 'list', $delta = 0, $edit = array()) {$/;"	f
+hook_boot	hooks/core.php	/^function hook_boot() {$/;"	f
+hook_comment	hooks/core.php	/^function hook_comment(&$a1, $op) {$/;"	f
+hook_cron	hooks/core.php	/^function hook_cron() {$/;"	f
+hook_db_rewrite_sql	hooks/core.php	/^function hook_db_rewrite_sql($query, $primary_table, $primary_field, $args) {$/;"	f
+hook_delete	hooks/node.php	/^function hook_delete(&$node) {$/;"	f
+hook_disable	hooks/install.php	/^function hook_disable() {$/;"	f
+hook_elements	hooks/core.php	/^function hook_elements() {$/;"	f
+hook_enable	hooks/install.php	/^function hook_enable() {$/;"	f
+hook_exit	hooks/core.php	/^function hook_exit($destination = NULL) {$/;"	f
+hook_file_download	hooks/core.php	/^function hook_file_download($filepath) {$/;"	f
+hook_filter	hooks/core.php	/^function hook_filter($op, $delta = 0, $format = -1, $text = '', $cache_id = 0) {$/;"	f
+hook_filter_tips	hooks/core.php	/^function hook_filter_tips($delta, $format, $long = FALSE) {$/;"	f
+hook_flush_caches	hooks/core.php	/^function hook_flush_caches() {$/;"	f
+hook_footer	hooks/core.php	/^function hook_footer($main = 0) {$/;"	f
+hook_form	hooks/node.php	/^function hook_form(&$node, $form_state) {$/;"	f
+hook_form_FORM_ID_alter	hooks/core.php	/^function hook_form_FORM_ID_alter(&$form, &$form_state) {$/;"	f
+hook_form_alter	hooks/core.php	/^function hook_form_alter(&$form, &$form_state, $form_id) {$/;"	f
+hook_forms	hooks/core.php	/^function hook_forms($form_id, $args) {$/;"	f
+hook_help	hooks/core.php	/^function hook_help($path, $arg) {$/;"	f
+hook_hook_info	hooks/core.php	/^function hook_hook_info() {$/;"	f
+hook_init	hooks/core.php	/^function hook_init() {$/;"	f
+hook_insert	hooks/node.php	/^function hook_insert($node) {$/;"	f
+hook_install	hooks/install.php	/^function hook_install() {$/;"	f
+hook_link	hooks/core.php	/^function hook_link($type, $object, $teaser = FALSE) {$/;"	f
+hook_link_alter	hooks/core.php	/^function hook_link_alter(&$links, $node, $comment = NULL) {$/;"	f
+hook_load	hooks/node.php	/^function hook_load($node) {$/;"	f
+hook_locale	hooks/core.php	/^function hook_locale($op = 'groups') {$/;"	f
+hook_mail	hooks/core.php	/^function hook_mail($key, &$message, $params) {$/;"	f
+hook_mail_alter	hooks/core.php	/^function hook_mail_alter(&$message) {$/;"	f
+hook_menu	hooks/core.php	/^function hook_menu() {$/;"	f
+hook_menu_alter	hooks/core.php	/^function hook_menu_alter(&$items) {$/;"	f
+hook_menu_link_alter	hooks/core.php	/^function hook_menu_link_alter(&$item, $menu) {$/;"	f
+hook_node_access_records	hooks/core.php	/^function hook_node_access_records($node) {$/;"	f
+hook_node_grants	hooks/core.php	/^function hook_node_grants($account, $op) {$/;"	f
+hook_node_info	hooks/node.php	/^function hook_node_info() {$/;"	f
+hook_node_operations	hooks/core.php	/^function hook_node_operations() {$/;"	f
+hook_node_type	hooks/node.php	/^function hook_node_type($op, $info) {$/;"	f
+hook_nodeapi	hooks/core.php	/^function hook_nodeapi(&$node, $op, $a3 = NULL, $a4 = NULL) {$/;"	f
+hook_perm	hooks/core.php	/^function hook_perm() {$/;"	f
+hook_ping	hooks/core.php	/^function hook_ping($name = '', $url = '') {$/;"	f
+hook_prepare	hooks/node.php	/^function hook_prepare(&$node) {$/;"	f
+hook_profile_alter	hooks/core.php	/^function hook_profile_alter(&$account) {$/;"	f
+hook_requirements	hooks/install.php	/^function hook_requirements($phase) {$/;"	f
+hook_schema	hooks/install.php	/^function hook_schema() {$/;"	f
+hook_schema_alter	hooks/core.php	/^function hook_schema_alter(&$schema) {$/;"	f
+hook_search	hooks/core.php	/^function hook_search($op = 'search', $keys = NULL) {$/;"	f
+hook_search_preprocess	hooks/core.php	/^function hook_search_preprocess($text) {$/;"	f
+hook_system_info_alter	hooks/core.php	/^function hook_system_info_alter(&$info, $file) {$/;"	f
+hook_taxonomy	hooks/core.php	/^function hook_taxonomy($op, $type, $array = NULL) {$/;"	f
+hook_term_path	hooks/core.php	/^function hook_term_path($term) {$/;"	f
+hook_theme	hooks/core.php	/^function hook_theme($existing, $type, $theme, $path) {$/;"	f
+hook_theme_registry_alter	hooks/core.php	/^function hook_theme_registry_alter(&$theme_registry) {$/;"	f
+hook_translated_menu_link_alter	hooks/core.php	/^function hook_translated_menu_link_alter(&$item, $map) {$/;"	f
+hook_translation_link_alter	hooks/core.php	/^function hook_translation_link_alter(&$links, $path) {$/;"	f
+hook_uninstall	hooks/install.php	/^function hook_uninstall() {$/;"	f
+hook_update	hooks/node.php	/^function hook_update($node) {$/;"	f
+hook_update_N	hooks/install.php	/^  \/\/ function hook_update_N() {$/;"	f
+hook_update_N	hooks/install.php	/^function hook_update_N(&$sandbox) {$/;"	f
+hook_update_index	hooks/core.php	/^function hook_update_index() {$/;"	f
+hook_update_last_removed	hooks/install.php	/^function hook_update_last_removed() {$/;"	f
+hook_update_projects_alter	hooks/core.php	/^function hook_update_projects_alter(&$projects) {$/;"	f
+hook_update_status_alter	hooks/core.php	/^function hook_update_status_alter(&$projects) {$/;"	f
+hook_user	hooks/core.php	/^function hook_user($op, &$edit, &$account, $category = NULL) {$/;"	f
+hook_user_operations	hooks/core.php	/^function hook_user_operations() {$/;"	f
+hook_validate	hooks/node.php	/^function hook_validate($node, &$form) {$/;"	f
+hook_view	hooks/node.php	/^function hook_view($node, $teaser = FALSE, $page = FALSE) {$/;"	f
+hook_watchdog	hooks/core.php	/^function hook_watchdog($log_entry) {$/;"	f
+hook_xmlrpc	hooks/core.php	/^function hook_xmlrpc() {$/;"	f
+is	hooks/core.php	/^ *       function is fired when the URL is accessed.$/;"	f
+is	hooks/core.php	/^ *   implementation. If neither file nor function is specified, a default$/;"	f
+is	hooks/core.php	/^ * This function is called before modules are loaded and$/;"	f
+is	hooks/core.php	/^ * This function is called very frequently (100+ times per page) so performance is$/;"	f
+is	hooks/core.php	/^ * This function is invoked during DRUPAL_BOOTSTRAP_EARLY_PAGE_CACHE.$/;"	f
+is	hooks/core.php	/^ * settings.php to alter all links generated by Drupal. This function is called from url().$/;"	f
+is	hooks/install.php	/^  \/\/ The next update function is mymodule_update_5200().$/;"	f
+items	hooks/core.php	/^  $items = array();$/;"	v
+join2	hooks/core.php	/^      $join2 = '';$/;"	v
+key	hooks/core.php	/^  foreach ($account->content AS $key => $field) {$/;"	v
+key	hooks/core.php	/^  foreach ($theme_registry['forum_topic_navigation']['preprocess functions'] as $key => $value) {$/;"	v
+keys	hooks/core.php	/^        $keys = search_query_insert($keys, 'category');$/;"	v
+keys	hooks/core.php	/^        $keys = search_query_insert($keys, 'type');$/;"	v
+keys	hooks/core.php	/^function hook_search($op = 'search', $keys = NULL) {$/;"	v
+last	hooks/core.php	/^  $last = variable_get('node_cron_last', 0);$/;"	v
+last_comment	hooks/core.php	/^    $last_comment = $node->last_comment_timestamp;$/;"	v
+limit	hooks/core.php	/^  $limit = (int)variable_get('search_cron_limit', 100);$/;"	v
+links	hooks/core.php	/^  $links = array();$/;"	v
+long	hooks/core.php	/^function hook_filter_tips($delta, $format, $long = FALSE) {$/;"	v
+message	hooks/core.php	/^  $message = new xmlrpcmsg('weblogUpdates.ping',$/;"	v
+module	hooks/core.php	/^  foreach ($links as $module => $link) {$/;"	v
+name	hooks/core.php	/^ *   function name will be assumed. For example, if a module registers$/;"	f
+name	hooks/core.php	/^ * - function: If specified, this will be the function name to invoke for this$/;"	f
+name	hooks/install.php	/^ * retrieve the appropriate localisation function name (t() or st()).$/;"	f
+needs	hooks/install.php	/^ * function needs to be updated to reflect the current version of the database$/;"	f
+nid	hooks/core.php	/^    $nid = $a1['nid'];$/;"	v
+node	hooks/core.php	/^        $node = node_build_content($node, FALSE, FALSE);$/;"	v
+node	hooks/core.php	/^        $node = node_load($item->sid);$/;"	v
+node	hooks/core.php	/^      $node = node_prepare($node, false);$/;"	v
+node	hooks/core.php	/^    $node = $params['node'];$/;"	v
+node	hooks/core.php	/^    $node = node_load(array('nid' => $node->nid));$/;"	v
+node	hooks/node.php	/^  $node = node_prepare($node, $teaser);$/;"	v
+object	hooks/core.php	/^    $object = $params['object'];$/;"	v
+op	hooks/core.php	/^  if ($op == 'insert' || $op == 'update') {$/;"	v
+op	hooks/core.php	/^  if ($type == 'vocabulary' && ($op == 'insert' || $op == 'update')) {$/;"	v
+op	hooks/node.php	/^  if ($op == 'update' || $op == 'delete') {$/;"	v
+operations	hooks/core.php	/^  $operations = array($/;"	v
+options	hooks/core.php	/^      $options = drupal_map_assoc(range(0, 10));$/;"	v
+or	hooks/core.php	/^ *   element is either a pair of method => function or an array with four$/;"	f
+or	hooks/core.php	/^ *   prior to the theme being rendered, to make sure that the function or$/;"	f
+page	hooks/core.php	/^  $page = mycache_fetch($base_root . request_uri(), 'cache_page');$/;"	v
+page_cache_fastpath	hooks/core.php	/^function page_cache_fastpath() {$/;"	f
+params	hooks/core.php	/^  $params = array();$/;"	v
+path	hooks/core.php	/^    $path = 'article'. $matches[1];$/;"	v
+path	hooks/core.php	/^    $path = 'e';$/;"	v
+path	hooks/core.php	/^    $path = isset($form['#node']->path) ? $form['#node']->path : NULL;$/;"	v
+project	hooks/core.php	/^  foreach ($projects as $project => $project_info) {$/;"	v
+ranking	hooks/core.php	/^      $ranking = array('node_rank_relevance' => t('Keyword relevance'),$/;"	v
+ranking	hooks/core.php	/^      $ranking = array();$/;"	v
+remaining	hooks/core.php	/^      $remaining = db_result(db_query("SELECT COUNT(*) FROM {node} n LEFT JOIN {search_dataset} d ON d.type = 'node' AND d.sid = n.nid WHERE n.status = 1 AND (d.sid IS NULL OR d.reindex <> 0)"));$/;"	v
+requirements	hooks/install.php	/^  $requirements = array();$/;"	v
+result	hooks/core.php	/^    $result = 'node'. $matches[1];$/;"	v
+result	hooks/core.php	/^    $result = 'user\/'. $user->uid .'\/edit';$/;"	v
+result	hooks/core.php	/^  $result = $client->send($message);$/;"	v
+result	hooks/core.php	/^  $result = db_query('SELECT * FROM {site} WHERE checked = 0 OR checked$/;"	v
+result	hooks/core.php	/^  $result = db_query_range('SELECT n.nid, c.last_comment_timestamp FROM {node} n LEFT JOIN {node_comment_statistics} c ON n.nid = c.nid WHERE n.status = 1 AND n.moderate = 0 AND (n.created > %d OR n.changed > %d OR c.last_comment_timestamp > %d) ORDER BY GREATEST(n.created, n.changed, c.last_comment_timestamp) ASC', $last, $last, $last, 0, $limit);$/;"	v
+results	hooks/core.php	/^      $results = array();$/;"	v
+ret	hooks/install.php	/^  $ret = array();$/;"	v
+return	hooks/core.php	/^      $return = array();$/;"	v
+returning	hooks/core.php	/^ *   - "access callback": A  function returning a boolean value that determines$/;"	f
+scale	hooks/core.php	/^        $scale = variable_get('node_cron_comments_scale', 0.0);$/;"	v
+scale	hooks/core.php	/^        $scale = variable_get('node_cron_views_scale', 0.0);$/;"	v
+select2	hooks/core.php	/^        $select2 = 'i.relevance AS score';$/;"	v
+select2	hooks/core.php	/^        $select2 = implode(' + ', $ranking) . ' AS score';$/;"	v
+setting	hooks/node.php	/^        $setting = variable_get('comment_'. $info->old_type, COMMENT_NODE_READ_WRITE);$/;"	v
+settings	hooks/core.php	/^  $settings = variable_get('update_advanced_project_settings', array());$/;"	v
+severity_list	hooks/core.php	/^  $severity_list = array($/;"	v
+should	hooks/core.php	/^ * This function should change the value of $path and $options by reference.$/;"	f
+should	hooks/core.php	/^ * This function should change the value of $result by reference.$/;"	f
+stats_join	hooks/core.php	/^        $stats_join = TRUE;$/;"	v
+stats_join	hooks/core.php	/^      $stats_join = FALSE;$/;"	v
+subject	hooks/core.php	/^  $subject = strtr($context['subject'], $variables);$/;"	v
+t	hooks/install.php	/^  $t = get_t();$/;"	v
+t	hooks/install.php	/^ * For localisation you should for example use $t = get_t() to$/;"	v
+teaser	hooks/core.php	/^function hook_link($type, $object, $teaser = FALSE) {$/;"	v
+teaser	hooks/node.php	/^function hook_view($node, $teaser = FALSE, $page = FALSE) {$/;"	v
+text	hooks/core.php	/^      $text = preg_replace('@<(\\?(php)?|%)(.+?)(\\?|%)>@se', "'\\xFEphp\\xFF'. codefilter_escape('\\\\3') .'\\xFE\/php\\xFF'", $text);$/;"	v
+text	hooks/core.php	/^      $text = preg_replace('@<code>(.+?)<\/code>@se', "'\\xFEcode\\xFF'. codefilter_escape('\\\\1') .'\\xFE\/code\\xFF'", $text);$/;"	v
+text	hooks/core.php	/^      $text = preg_replace('@\\xFEcode\\xFF(.+?)\\xFE\/code\\xFF@se', "codefilter_process_code('$1')", $text);$/;"	v
+text	hooks/core.php	/^      $text = preg_replace('@\\xFEphp\\xFF(.+?)\\xFE\/php\\xFF@se', "codefilter_process_php('$1')", $text);$/;"	v
+text	hooks/core.php	/^    $text = '<h1>'. drupal_specialchars($node->title) .'<\/h1>'. $node->body;$/;"	v
+that	hooks/core.php	/^ *   name of the function that generated the form.$/;"	f
+that	hooks/core.php	/^ * The function that is called when the action is triggered is passed two$/;"	f
+that	hooks/core.php	/^ * function that defines a configuration form (which has the name of the action$/;"	f
+that	hooks/install.php	/^ * Anything added or modified in this function that can be removed during$/;"	f
+to	hooks/core.php	/^        \/\/ Your module will need to define this function to render the block.$/;"	f
+to	hooks/core.php	/^  $to = 'someone@example.com';$/;"	v
+to	hooks/core.php	/^ *   - "callback": Required. The function to call for the operation.$/;"	f
+to	hooks/core.php	/^ *   - "page callback": The function to call to display a web page when the user$/;"	f
+to	hooks/core.php	/^ * The first format will use the l() function to render the link:$/;"	f
+total	hooks/core.php	/^        $total = 1;$/;"	v
+total	hooks/core.php	/^      $total = 0;$/;"	v
+total	hooks/core.php	/^      $total = db_result(db_query('SELECT COUNT(*) FROM {node} WHERE status = 1'));$/;"	v
+type	hooks/node.php	/^  $type = node_get_types('type', $node);$/;"	v
+types	hooks/core.php	/^        $types = array();$/;"	v
+url	hooks/core.php	/^function hook_ping($name = '', $url = '') {$/;"	v
+users	hooks/install.php	/^  $users = db_query_range("SELECT uid, name FROM {users} WHERE uid > %d ORDER BY uid ASC", $sandbox['current_uid'], 0, 3);$/;"	v
+var	hooks/core.php	/^      foreach ($ranking as $var => $title) {$/;"	v
+variables	hooks/core.php	/^  $variables = array($/;"	v
+vocabulary	hooks/core.php	/^    $vocabulary = taxonomy_vocabulary_load($object->vid);$/;"	v
+weight	hooks/core.php	/^          $weight = (int)variable_get('node_rank_views', 5)) {$/;"	v
+weight	hooks/core.php	/^      if (module_exists('comment') && $weight = (int)variable_get('node_rank_comments', 5)) {$/;"	v
+which	hooks/core.php	/^ * parts: (1) an action definition (returned by this hook), (2) a function which$/;"	f
+will	hooks/core.php	/^ *       This function will take the $context as the only parameter, and is$/;"	f
+will	hooks/node.php	/^ * Changes made to the $node object within a hook_validate() function will$/;"	f
+with	hooks/core.php	/^ *       function with the same name as the key, but with '_form' appended to$/;"	f
+with	hooks/core.php	/^ * dropdown found at admin\/content\/node, by associating a callback function with$/;"	f
+with	hooks/core.php	/^ * dropdown found at admin\/user\/user, by associating a callback function with$/;"	f
+xmlrpc_date	hooks/core.php	/^ *          which is described in the function xmlrpc_date$/;"	f
+you	hooks/core.php	/^ * custom_url_rewrite_inbound is not a hook, it's a function you can add to$/;"	f
+you	hooks/core.php	/^ * custom_url_rewrite_outbound is not a hook, it's a function you can add to$/;"	f
