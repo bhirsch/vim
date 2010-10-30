@@ -1,9 +1,17 @@
 " BH
 set number
-map fp :syntax enable<enter>:set syntax=php<enter>
-map fj :syntax enable<enter>:set syntax=javascript<enter>
-map fh :syntax enable<enter>:set syntax=html<enter>
-map ft :syntax enable<enter>:set syntax=text<enter>
+set incsearch
+" intent 
+noremap < <gv
+noremap > >gv
+" mapping
+"map fp :syntax enable<enter>:set syntax=php<enter>
+"map fj :syntax enable<enter>:set syntax=javascript<enter>
+"map fh :syntax enable<enter>:set syntax=html<enter>
+"map ft :syntax enable<enter>:set syntax=text<enter>
+" fold
+set foldcolumn=4
+set foldmethod=indent
 
 " Drupal
 set expandtab
@@ -27,6 +35,11 @@ set smartindent
 " (Vim Hacks 101, p 151)
 " Invoke autocomplete suggestions like this: 
 "   When you're on a work you want to autocomplete do <ctrl>x<ctrl>o
+"
+" Turn on auto popup with this
+" http://www.vim.org/scripts/download_script.php?src_id=11538
+"   :AcpEnable
+" see Vim Hacks 101, p 149
 filetype plugin on
 
 " More autocomplete (although this may be redundant with the previous
